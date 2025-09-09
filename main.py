@@ -103,4 +103,4 @@ def launch_app(share=True, debug=True):
 
 if __name__ == "__main__":
     # 本機建議 share=False；Colab 想要外網連結就改成 True
-    launch_app(share=False, debug=False)
+    launch_app(share=True, debug=True)
