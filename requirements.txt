@@ -4,4 +4,4 @@ transformers==4.43.3
 accelerate>=0.33.0
 torch>=2.2.0
 gradio==4.40.0
-numpy>=1.26.0
+numpy<2.0
