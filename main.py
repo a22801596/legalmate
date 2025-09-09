@@ -92,7 +92,7 @@ def search_and_answer(user_question: str) -> str:
 # ------------------------------
 import gradio as gr
 
-def launch_app(share=False, debug=False):
+def launch_app(share=True, debug=True):
     demo = gr.Interface(
         fn=search_and_answer,
         inputs=gr.Textbox(lines=2, label="Enter your legal question:"),
